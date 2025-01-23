@@ -5,7 +5,9 @@ edition = "2021"
 
 [dependencies]
 axum = "0.8.2"
+chrono = "0.4.39"
 num-traits = "0.2.19"
+serde = "1.0.217"
 serde_json = "1.0.137"
 starknet = "0.13.0"
 tokio = { version = "1.43.0", features = ["full"] }
